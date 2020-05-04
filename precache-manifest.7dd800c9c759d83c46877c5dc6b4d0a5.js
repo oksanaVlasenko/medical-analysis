@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fd56bec246b1c4401366d1b9804acc51",
+    "revision": "e907012d963215cc37bfdf5b26b4f205",
     "url": "/medical-analysis/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/medical-analysis/static/css/2.69121389.chunk.css"
   },
   {
-    "revision": "b23b1cae594458ab530f",
+    "revision": "bc09da57a9f49ad56351",
     "url": "/medical-analysis/static/css/main.d4388371.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/medical-analysis/static/js/2.e896dee3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b23b1cae594458ab530f",
-    "url": "/medical-analysis/static/js/main.592faa8e.chunk.js"
+    "revision": "bc09da57a9f49ad56351",
+    "url": "/medical-analysis/static/js/main.13e8dbd3.chunk.js"
   },
   {
     "revision": "b8ec9d7cc41dce7c5837",
