@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e907012d963215cc37bfdf5b26b4f205",
+    "revision": "42f80ad785238c2cc5bd0c04afb0d246",
     "url": "/medical-analysis/index.html"
   },
   {
-    "revision": "19dcbf8933aa113b4526",
+    "revision": "e353e4fe649f95697950",
     "url": "/medical-analysis/static/css/2.69121389.chunk.css"
   },
   {
-    "revision": "bc09da57a9f49ad56351",
+    "revision": "945a3bb6c074703328f0",
     "url": "/medical-analysis/static/css/main.d4388371.chunk.css"
   },
   {
-    "revision": "19dcbf8933aa113b4526",
-    "url": "/medical-analysis/static/js/2.e896dee3.chunk.js"
+    "revision": "e353e4fe649f95697950",
+    "url": "/medical-analysis/static/js/2.ec7576fa.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/medical-analysis/static/js/2.e896dee3.chunk.js.LICENSE.txt"
+    "url": "/medical-analysis/static/js/2.ec7576fa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bc09da57a9f49ad56351",
-    "url": "/medical-analysis/static/js/main.13e8dbd3.chunk.js"
+    "revision": "945a3bb6c074703328f0",
+    "url": "/medical-analysis/static/js/main.cb64ac81.chunk.js"
   },
   {
     "revision": "b8ec9d7cc41dce7c5837",
