@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/medical-analysis/static/css/main.d4388371.chunk.css",
+    "main.js": "/medical-analysis/static/js/main.8e3c7e34.chunk.js",
+    "main.js.map": "/medical-analysis/static/js/main.8e3c7e34.chunk.js.map",
+    "runtime-main.js": "/medical-analysis/static/js/runtime-main.9a4114ed.js",
+    "runtime-main.js.map": "/medical-analysis/static/js/runtime-main.9a4114ed.js.map",
+    "static/css/2.69121389.chunk.css": "/medical-analysis/static/css/2.69121389.chunk.css",
+    "static/js/2.07e9a467.chunk.js": "/medical-analysis/static/js/2.07e9a467.chunk.js",
+    "static/js/2.07e9a467.chunk.js.map": "/medical-analysis/static/js/2.07e9a467.chunk.js.map",
+    "index.html": "/medical-analysis/index.html",
+    "precache-manifest.328bf91d47e6f64f905ceda691fe3968.js": "/medical-analysis/precache-manifest.328bf91d47e6f64f905ceda691fe3968.js",
+    "service-worker.js": "/medical-analysis/service-worker.js",
+    "static/css/2.69121389.chunk.css.map": "/medical-analysis/static/css/2.69121389.chunk.css.map",
+    "static/css/main.d4388371.chunk.css.map": "/medical-analysis/static/css/main.d4388371.chunk.css.map",
+    "static/js/2.07e9a467.chunk.js.LICENSE.txt": "/medical-analysis/static/js/2.07e9a467.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/medical-analysis/static/media/color.2d61cbfe.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9a4114ed.js",
+    "static/css/2.69121389.chunk.css",
+    "static/js/2.07e9a467.chunk.js",
+    "static/css/main.d4388371.chunk.css",
+    "static/js/main.8e3c7e34.chunk.js"
+  ]
+}
