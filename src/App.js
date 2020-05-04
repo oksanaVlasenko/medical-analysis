@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 import { ItemContext } from "./Components/Context/Context";
 import MainScreen from "./Components/MainScreen/Main";
 import MainResult from "./Components/Result/MainResult/MainResult";
@@ -10,7 +10,7 @@ function App() {
 
   return (
     <ItemContext.Provider value={items}>
-      <Router>
+      <HashRouter>
         <div style={Style}>
           <Switch>
             <Route exact path={process.env.PUBLIC_URL + "/"}>
@@ -24,7 +24,7 @@ function App() {
             </Route>
           </Switch>
         </div>
-      </Router>
+      </HashRouter>
     </ItemContext.Provider>
   );
 }
