@@ -1,0 +1,42 @@
+.custom-checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+/* для элемента label, связанного с .custom-checkbox */
+.custom-checkbox + label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+
+/* создание в label псевдоэлемента before со следующими стилями */
+.custom-checkbox + label::before {
+  content: "";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2em;
+  height: 1.5em;
+
+  border-radius: 0.45em;
+  margin-right: 0.5em;
+  background-color: #e699ff;
+  color: #fff;
+  box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5),
+    1px 1px 5px rgba(255, 255, 255, 1);
+}
+
+.male + label::before {
+  content: "M";
+}
+
+.female + label::before {
+  content: "Ж";
+}
+
+.custom-checkbox:checked + label::before {
+  border-color: #92a5e7;
+  background-color: #92a5e7;
+}

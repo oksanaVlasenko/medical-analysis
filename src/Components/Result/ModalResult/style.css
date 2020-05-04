@@ -1,0 +1,10 @@
+.modal-dialog {
+  color: #fff;
+
+  /* border-radius: 1em; */
+}
+
+.modal-content {
+  background-color: #e699ff !important;
+  border-radius: 2em !important;
+}

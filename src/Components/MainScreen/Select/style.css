@@ -1,0 +1,72 @@
+label {
+  color: #fff;
+  font-size: 22px;
+}
+
+select {
+  border-radius: 0.45em;
+  margin-right: 0.5em;
+  background-color: #6e717a;
+  color: #fff;
+  height: 100px;
+  margin: 0 auto;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  outline: none;
+}
+
+select:active {
+  border: none;
+}
+
+select > option {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  height: 30px;
+  padding: 0 16px;
+}
+
+option:checked,
+option:hover {
+  background: #e699ff url("./color.PNG") repeat scroll 0 0;
+  color: white;
+}
+select > option:checked {
+  background-color: #ebebeb;
+  color: #000;
+}
+
+select::-webkit-scrollbar-button {
+  background-image: url("");
+  background-repeat: no-repeat;
+  width: 6px;
+  height: 0px;
+}
+
+select::-webkit-scrollbar-track {
+  background-color: #6e717a;
+  box-shadow: 0px 0px 3px #000 inset;
+}
+
+select::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #bdbdbe;
+  box-shadow: 0px 1px 1px #fff inset;
+  background-image: url("https://yraaa.ru/_pu/24/59610063.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+select::-webkit-resizer {
+  background-image: url("");
+  background-repeat: no-repeat;
+  width: 7px;
+  height: 0px;
+}
+
+select::-webkit-scrollbar {
+  width: 11px;
+}

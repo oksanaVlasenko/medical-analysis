@@ -1,0 +1,33 @@
+div.error {
+  background-color: #7f808a;
+  padding: 1.4em 0;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+}
+
+h3 {
+  color: #d3d3d4;
+  text-align: center;
+}
+
+.button-err {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: #fff;
+  width: 200px;
+  height: 40px;
+  font-size: 22px;
+  border-radius: 1em;
+  background-color: #de9ee9;
+  margin: 1em 0;
+}
+
+button,
+button:active,
+button:focus {
+  outline: none !important;
+}
