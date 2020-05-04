@@ -16,10 +16,10 @@ function App() {
             <Route exact path={process.env.PUBLIC_URL + "/"}>
               <MainScreen />
             </Route>
-            <Route path={process.env.PUBLIC_URL + "/result"}>
+            <Route path="/result">
               <MainResult />
             </Route>
-            <Route path={process.env.PUBLIC_URL + "/diagnosis"}>
+            <Route path="/diagnosis">
               <Screen />
             </Route>
           </Switch>
