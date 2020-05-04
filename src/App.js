@@ -10,16 +10,16 @@ function App() {
 
   return (
     <ItemContext.Provider value={items}>
-      <HashRouter>
+      <HashRouter basename="/">
         <div style={Style}>
           <Switch>
-            <Route exact path={process.env.PUBLIC_URL + "/"}>
+            <Route exact path="/">
               <MainScreen />
             </Route>
-            <Route path={process.env.PUBLIC_URL + "/result"}>
+            <Route path="/result">
               <MainResult />
             </Route>
-            <Route path={process.env.PUBLIC_URL + "/diagnosis"}>
+            <Route path="/diagnosis">
               <Screen />
             </Route>
           </Switch>
