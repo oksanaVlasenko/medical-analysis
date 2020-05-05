@@ -10,21 +10,19 @@ function App() {
 
   return (
     <ItemContext.Provider value={items}>
-      <HashRouter basename="/">
-        <div style={Style}>
-          <Switch>
-            <Route exact path="/">
-              <MainScreen />
-            </Route>
-            <Route path="/result">
-              <MainResult />
-            </Route>
-            <Route path="/diagnosis">
-              <Screen />
-            </Route>
-          </Switch>
-        </div>
-      </HashRouter>
+      <div style={Style}>
+        <Switch>
+          <Route exact path="/">
+            <MainScreen />
+          </Route>
+          <Route path="/result">
+            <MainResult />
+          </Route>
+          <Route path="/diagnosis">
+            <Screen />
+          </Route>
+        </Switch>
+      </div>
     </ItemContext.Provider>
   );
 }
