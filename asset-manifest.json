@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/medical-analysis/static/css/main.d4388371.chunk.css",
-    "main.js": "/medical-analysis/static/js/main.cb64ac81.chunk.js",
-    "main.js.map": "/medical-analysis/static/js/main.cb64ac81.chunk.js.map",
+    "main.js": "/medical-analysis/static/js/main.e00c81b3.chunk.js",
+    "main.js.map": "/medical-analysis/static/js/main.e00c81b3.chunk.js.map",
     "runtime-main.js": "/medical-analysis/static/js/runtime-main.9a4114ed.js",
     "runtime-main.js.map": "/medical-analysis/static/js/runtime-main.9a4114ed.js.map",
     "static/css/2.69121389.chunk.css": "/medical-analysis/static/css/2.69121389.chunk.css",
     "static/js/2.ec7576fa.chunk.js": "/medical-analysis/static/js/2.ec7576fa.chunk.js",
     "static/js/2.ec7576fa.chunk.js.map": "/medical-analysis/static/js/2.ec7576fa.chunk.js.map",
     "index.html": "/medical-analysis/index.html",
-    "precache-manifest.75bfa262ca58b03c47e877e4e7a55729.js": "/medical-analysis/precache-manifest.75bfa262ca58b03c47e877e4e7a55729.js",
+    "precache-manifest.efbf89cd9b8cacdcd4216d096a76cc0a.js": "/medical-analysis/precache-manifest.efbf89cd9b8cacdcd4216d096a76cc0a.js",
     "service-worker.js": "/medical-analysis/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/medical-analysis/static/css/2.69121389.chunk.css.map",
     "static/css/main.d4388371.chunk.css.map": "/medical-analysis/static/css/main.d4388371.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.69121389.chunk.css",
     "static/js/2.ec7576fa.chunk.js",
     "static/css/main.d4388371.chunk.css",
-    "static/js/main.cb64ac81.chunk.js"
+    "static/js/main.e00c81b3.chunk.js"
   ]
 }
