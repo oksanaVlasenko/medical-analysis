@@ -11,7 +11,11 @@
       ],
       "decrease": ["Дефіцит заліза", "Дефіцит В9", "Дефіцит В12"],
       "increase": null,
-      "priority": 3
+      "priority": 3,
+      "prediction": [
+        { "women": { "min": 120, "max": 125 } },
+        { "men": { "min": 120, "max": 130 } }
+      ]
     },
     {
       "name": "Еритроцити ",
@@ -21,7 +25,11 @@
       ],
       "decrease": ["Дефіцит В6", "Дефіцит В9", "Дефіцит В12"],
       "increase": ["Дефіцит заліза"],
-      "priority": 3
+      "priority": 3,
+      "prediction": [
+        { "women": { "min": 3.9, "max": 4.3 } },
+        { "men": { "min": 3.9, "max": 4.5 } }
+      ]
     },
     {
       "name": "Середній об'єм еритроцитів",
@@ -30,8 +38,12 @@
         { "men": [{ "min": 88, "max": 95 }, " фл"] }
       ],
       "decrease": ["Дефіцит заліза", "Дефіцит міді"],
-      "increase": ["Дефіцит B9", "Дефіцит В12"],
-      "priority": 3
+      "increase": ["Дефіцит В9", "Дефіцит В12"],
+      "priority": 3,
+      "prediction": [
+        { "women": { "min": 80, "max": 88 } },
+        { "men": { "min": 80, "max": 88 } }
+      ]
     },
     {
       "name": "Середній вміст гемоглобіну в 1 еритроциті",
@@ -40,8 +52,12 @@
         { "men": [{ "min": 28, "max": 32 }, "пг"] }
       ],
       "decrease": ["Дефіцит заліза", "Дефіцит міді", "Дефіцит В6"],
-      "increase": ["Дефіцит B9", "Дефіцит В12"],
-      "priority": 3
+      "increase": ["Дефіцит В9", "Дефіцит В12"],
+      "priority": 3,
+      "prediction": [
+        { "women": { "min": 27, "max": 28 } },
+        { "men": { "min": 32, "max": 34 } }
+      ]
     },
     {
       "name": "Гематокрит",
@@ -50,8 +66,12 @@
         { "men": [{ "min": 40, "max": 54 }, "%"] }
       ],
       "decrease": ["Дефіцит заліза"],
-      "increase": ["Дефіцит B9", "Дефіцит В12"],
-      "priority": 3
+      "increase": ["Дефіцит В9", "Дефіцит В12"],
+      "priority": 3,
+      "prediction": [
+        { "women": { "min": 35, "max": 36 } },
+        { "men": { "min": 35.5, "max": 40 } }
+      ]
     },
     {
       "name": "Тромбоцити",
@@ -59,9 +79,13 @@
         { "women": [{ "min": 180, "max": 399 }, "Г/л"] },
         { "men": [{ "min": 180, "max": 399 }, "Г/л"] }
       ],
-      "decrease": ["Дефіцит B9", "Дефіцит В12"],
+      "decrease": ["Дефіцит В9", "Дефіцит В12"],
       "increase": ["Дефіцит заліза"],
-      "priority": 3
+      "priority": 3,
+      "prediction": [
+        { "women": { "min": 166, "max": 180 } },
+        { "men": { "min": 166, "max": 180 } }
+      ]
     },
     {
       "name": "Середній об’єм тромбоцитів",
@@ -70,8 +94,12 @@
         { "men": [{ "min": 7, "max": 10 }, "фл"] }
       ],
       "decrease": null,
-      "increase": ["Дефіцит B9", "Дефіцит В12"],
-      "priority": 3
+      "increase": ["Дефіцит В9", "Дефіцит В12"],
+      "priority": 3,
+      "prediction": [
+        { "women": { "min": 5.9, "max": 7 } },
+        { "men": { "min": 5.9, "max": 7 } }
+      ]
     },
     {
       "name": "Лейкоцити",
@@ -79,9 +107,13 @@
         { "women": [{ "min": 4, "max": 10 }, "Г/л"] },
         { "men": [{ "min": 4, "max": 10 }, "Г/л"] }
       ],
-      "decrease": ["Дефіцит B6", "Дефіцит B9", "Дефіцит В12"],
+      "decrease": ["Дефіцит B6", "Дефіцит В9", "Дефіцит В12"],
       "increase": null,
-      "priority": 3
+      "priority": 3,
+      "prediction": [
+        { "women": { "min": 3.8, "max": 4 } },
+        { "men": { "min": 3.8, "max": 4 } }
+      ]
     }
   ],
   [
@@ -96,7 +128,11 @@
       ],
       "decrease": ["Дефіцит заліза"],
       "increase": null,
-      "priority": 8
+      "priority": 8,
+      "prediction": [
+        { "women": { "min": 30, "max": 50 } },
+        { "men": { "min": 30, "max": 70 } }
+      ]
     },
     {
       "name": "Трансферин",
@@ -106,7 +142,8 @@
       ],
       "decrease": ["Дефіцит цинку"],
       "increase": ["Дефіцит заліза"],
-      "priority": 6
+      "priority": 6,
+      "prediction": null
     },
     {
       "name": "Залізо сироваткове",
@@ -116,7 +153,11 @@
       ],
       "decrease": ["Дефіцит заліза"],
       "increase": ["Дефіцит вітамінів групи В", "Дефіцит міді"],
-      "priority": 6
+      "priority": 6,
+      "prediction": [
+        { "women": { "min": 6, "max": 15 } },
+        { "men": { "min": 6, "max": 15 } }
+      ]
     },
     {
       "name": "Фібриноген",
@@ -124,9 +165,10 @@
         { "women": [{ "min": 2, "max": 4 }, "г/л"] },
         { "men": [{ "min": 2, "max": 4 }, "г/л"] }
       ],
-      "decrease": ["Дефіцит B12"],
+      "decrease": ["Дефіцит В12"],
       "increase": null,
-      "priority": 6
+      "priority": 6,
+      "prediction": null
     },
     {
       "name": "Білірубін непрямий",
@@ -135,8 +177,9 @@
         { "men": [{ "min": 3.2, "max": 12 }, "мкмоль/л"] }
       ],
       "decrease": null,
-      "increase": ["Дефіцит B12"],
-      "priority": 6
+      "increase": ["Дефіцит В12"],
+      "priority": 6,
+      "prediction": null
     },
     {
       "name": "ТТГ",
@@ -146,7 +189,11 @@
       ],
       "decrease": null,
       "increase": ["Дефіцит йоду", "Дефіцит заліза"],
-      "priority": 6
+      "priority": 6,
+      "prediction": [
+        { "women": { "min": 2, "max": 4 } },
+        { "men": { "min": 2, "max": 4 } }
+      ]
     },
     {
       "name": "Т4 вільний",
@@ -156,7 +203,8 @@
       ],
       "decrease": ["Дефіцит цинку", "Дефіцит заліза", "Дефіцит йоду"],
       "increase": null,
-      "priority": 6
+      "priority": 6,
+      "prediction": null
     },
     {
       "name": "Т3 вільний",
@@ -166,7 +214,8 @@
       ],
       "decrease": ["Дефіцит цинку", "Дефіцит заліза", "Дефіцит селену"],
       "increase": null,
-      "priority": 6
+      "priority": 6,
+      "prediction": null
     }
   ],
   [
@@ -181,7 +230,11 @@
       ],
       "decrease": ["Дефіцит заліза", "Дефіцит вітаміну Д"],
       "increase": null,
-      "priority": 10
+      "priority": 10,
+      "prediction": [
+        { "women": { "min": 20, "max": 30 } },
+        { "men": { "min": 20, "max": 30 } }
+      ]
     },
     {
       "name": "Вітамін В12",
@@ -191,7 +244,11 @@
       ],
       "decrease": ["Дефіцит B12"],
       "increase": null,
-      "priority": 10
+      "priority": 10,
+      "prediction": [
+        { "women": { "min": 400, "max": 600 } },
+        { "men": { "min": 400, "max": 600 } }
+      ]
     },
     {
       "name": "В9 сироватковий",
@@ -199,9 +256,13 @@
         { "women": [{ "min": 6.6, "max": 20 }, "нг/мл"] },
         { "men": [{ "min": 6.6, "max": 20 }, "нг/мл"] }
       ],
-      "decrease": ["Дефіцит B9"],
+      "decrease": ["Дефіцит В9"],
       "increase": null,
-      "priority": 10
+      "priority": 10,
+      "prediction": [
+        { "women": { "min": 3.9, "max": 6.6 } },
+        { "men": { "min": 3.9, "max": 6.6 } }
+      ]
     },
     {
       "name": "Вітамін В6",
@@ -211,7 +272,8 @@
       ],
       "decrease": ["Дефіцит B6"],
       "increase": null,
-      "priority": 10
+      "priority": 10,
+      "prediction": null
     },
     {
       "name": "Мідь сироваткова",
@@ -221,7 +283,11 @@
       ],
       "decrease": ["Дефіцит міді"],
       "increase": ["Дефіцит заліза", "Дефіцит B12"],
-      "priority": 10
+      "priority": 10,
+      "prediction": [
+        { "women": { "min": 70, "max": 80 } },
+        { "men": { "min": 60, "max": 70 } }
+      ]
     },
     {
       "name": "Цинк сироватковий",
@@ -231,7 +297,11 @@
       ],
       "decrease": ["Дефіцит цинку"],
       "increase": null,
-      "priority": 10
+      "priority": 10,
+      "prediction": [
+        { "women": { "min": 0.7, "max": 0.75 } },
+        { "men": { "min": 0.7, "max": 0.75 } }
+      ]
     },
     {
       "name": "Магній",
@@ -241,7 +311,11 @@
       ],
       "decrease": ["Дефіцит магнію"],
       "increase": null,
-      "priority": 10
+      "priority": 10,
+      "prediction": [
+        { "women": { "min": 0.66, "max": 0.9 } },
+        { "men": { "min": 0.66, "max": 0.9 } }
+      ]
     },
     {
       "name": "Селен сироватковий",
@@ -251,7 +325,11 @@
       ],
       "decrease": ["Дефіцит селену"],
       "increase": null,
-      "priority": 10
+      "priority": 10,
+      "prediction": [
+        { "women": { "min": 95, "max": 101 } },
+        { "men": { "min": 95, "max": 101 } }
+      ]
     },
     {
       "name": "Йод у сечі",
@@ -261,7 +339,11 @@
       ],
       "decrease": ["Дефіцит йоду"],
       "increase": null,
-      "priority": 10
+      "priority": 10,
+      "prediction": [
+        { "women": { "min": 80, "max": 100 } },
+        { "men": { "min": 80, "max": 100 } }
+      ]
     }
   ]
 ]

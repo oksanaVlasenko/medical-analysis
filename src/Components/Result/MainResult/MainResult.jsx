@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { ItemContext } from "../../Context/Context";
 import Container from "react-bootstrap/Container";
+
 import Error from "../404/404";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -10,7 +11,7 @@ const MainResult = () => {
   const msg = "Будь ласка, оберіть список аналізів";
   const item = useContext(ItemContext);
   console.log(item.items);
-  if (item.items === null) {
+  if (item.items === undefined || item.items.length === 0) {
     return <Error msg={msg} />;
   }
   return (

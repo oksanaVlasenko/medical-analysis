@@ -36,6 +36,7 @@ const MainForm = () => {
 
     item.items = filtered;
     item.gender = gender;
+    item.analysis = analysis;
     return allItem;
   }
 
